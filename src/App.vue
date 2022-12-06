@@ -32,7 +32,7 @@ export default {
     // promises
 
       async fetchFoods(){
-          const res = await fetch('db.json')
+          const res = await fetch('http://localhost:5555/foods')
           const data = await res.json()
           console.log( data )
           return data
