@@ -32,7 +32,7 @@ export default {
     // promises
 
       async fetchFoods(){
-          const res = await fetch('https://restaurant-menu-f556e5.netlify.app/.netlify/functions/fetchFoods')
+          const res = await fetch('https://github.com/rgibb/restaurantmenu/blob/main/db.json')
           const data = await res.json()
           console.log( data )
           return data
