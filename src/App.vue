@@ -32,7 +32,7 @@ export default {
     // promises
 
       async fetchFoods(){
-          const res = await fetch('https://github.com/rgibb/restaurantmenu/blob/main/db.json')
+          const res = await fetch('db.json')
           const data = await res.json()
           console.log( data )
           return data
