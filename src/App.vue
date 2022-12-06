@@ -32,7 +32,7 @@ export default {
     // promises
 
       async fetchFoods(){
-          const res = await fetch('http://localhost:5555/foods')
+          const res = await fetch('https://restaurant-menu-f556e5.netlify.app/db.json')
           const data = await res.json()
           console.log( data )
           return data
